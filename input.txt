@@ -1,0 +1,20 @@
+2362         ! seed for random number generator
+100          ! N
+2            ! # neutral loci
+100          ! k
+0.001        ! mutation rate neutral loci
+0.00001      ! mutation rate S locus
+0.001    ! mutation rate towards self-compatible alleles
+0.001        ! mutation rate viability locus A->a
+0.001        ! mutation rate viability locus a->A
+0            ! s
+0            ! h
+0.01          ! c
+100          ! # generations
+50           ! burn-in
+1            ! sampling interval
+10           ! # replicates
+1            ! 0=Does NOT calculate LD; 1=Calculates LD
+0            ! 0=does NOT save population data; 1=saves population 
+1            ! 0=stars as self-incompatible//1=starts as self-compatible
+data
